@@ -1,0 +1,98 @@
+# =========================
+
+# ENVIRONMENT / CONFIG
+
+# =========================
+
+.env
+.env.local
+.env.production
+
+# Optional sensitive config
+
+config/database.local.php
+
+# =========================
+
+# XAMPP / LOCAL SERVER FILES
+
+# =========================
+
+xampp/
+apache/
+mysql/
+
+# =========================
+
+# USER UPLOADS
+
+# =========================
+
+assets/uploads/*
+
+# Keep folder structure
+
+!assets/uploads/.gitkeep
+
+# =========================
+
+# LOG FILES
+
+# =========================
+
+*.log
+error_log
+
+# =========================
+
+# OS FILES
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# IDE / EDITOR FILES
+
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+
+# TEMP FILES
+
+# =========================
+
+*.tmp
+*.temp
+
+# =========================
+
+# CACHE FILES
+
+# =========================
+
+.cache/
+node_modules/
+
+# =========================
+
+# GENERATED PDF FILES
+
+# =========================
+
+exports/
+generated_pdfs/
+
+# =========================
+
+# SESSION FILES
+
+# =========================
+
+sessions/
+*.sess
